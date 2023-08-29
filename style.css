@@ -1,0 +1,23 @@
+body{
+   margin: 0;
+}
+.banner {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.banner_img {
+   height: 400px;
+}
+/*螢幕尺寸的臨界值請根據專案情況自行設定*/
+@media (max-width: 991px) {
+  .banner_img {
+    height: 276px;
+  }
+}
+@media (max-width: 575px) {
+  .banner_img {
+    height: 160px;
+  }
+}
